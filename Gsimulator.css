@@ -1,0 +1,310 @@
+/*Styles the body*/
+  
+body {
+	background: url(https://t4.ftcdn.net/jpg/01/17/59/93/240_F_117599394_M0P2ctKVYkXs9FTyRMjae4Wfq0w9Zvol.jpg)repeat center center #000;
+	font-family: Arial, Helvetica, San-serif;
+	margin:0;
+	outline: none;
+}
+/*Styles the header, image & its size*/
+header {
+    height: 15vh;
+    color: #151515;
+    text-align: center;
+    margin: 0;
+    padding: 0.5vh;
+    box-shadow: 0 0 25px 5px #000;
+	box-sizing: border-box;
+    border-bottom: 1px solid #111;
+	background:url(https://i.pinimg.com/originals/34/7b/05/347b05f70e3ec739230bb470bdda89d7.jpg) repeat-x center center / contain transparent;
+	position: relative;
+}
+/*Styles all the h1 elements*/
+h1 {
+    margin: 0.5vh 0;
+    font-size: 2em;
+    padding: 3vh 0;
+    background-color: #333333;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 1px 3px;  
+}
+/*Shadows & colours are added to the headings*/
+h1#title.imgTitle{
+	text-shadow: 0 0 25px rgba(20, 139, 255, 0.8), 0 0 15px rgba(30, 144, 255, 0.54);
+    background-color: rgba(77, 134, 189, 0.8);
+}
+/*Styles the background of the strings*/
+section {
+	margin: 0 auto;
+    float: none;
+    height: 70vh;
+    width: 360px;
+    box-sizing: border-box;
+}
+/*Styles the guitar strings*/
+button.string {
+	border: none;
+    float: left;
+    width: 40px;
+    margin: 0 7px 0 7px;
+    height: inherit;
+    outline: none;
+    cursor: pointer;
+    padding: 0 !important; 
+	z-index: 1;
+}
+/*Positions the guitar strings*/
+button.string:first-child {
+    margin-left: 26px !important;
+}
+/*Positions the guitar strings*/
+button#s6, button#s4, button#s5, button#s3, button#s1 {
+    margin-left: 6px;
+}
+/*Positions the guitar strings*/
+button#s2 {
+    margin-left: 8px;
+}
+/*Positions body of the guitar*/
+#guitarBody button {
+	background-repeat:repeat-y ;
+	background-position:center center;
+	background-color:transparent;
+}
+/*Adds background to each of the guitar strings*/
+#s1 {
+	
+	background: repeating-linear-gradient(-90deg, transparent, transparent 40%, #000000 46%, #ffffff 48%, transparent 52%, transparent);
+}
+#s2 {
+	background: repeating-linear-gradient(-90deg, transparent, transparent 40%, #000000 46%, #ffffff 48%, transparent 52%, transparent);
+}
+#s3 {
+	background: repeating-linear-gradient(-90deg, transparent, transparent 40%, #000000 46%, #ffffff 48%, transparent 52%, transparent);
+}
+#s4 {
+	background: repeating-linear-gradient(-90deg, transparent, transparent 40%, #000000 46%, #ffffff 48%, transparent 52%, transparent);
+}
+#s5 {
+	background: repeating-linear-gradient(-90deg, transparent, transparent 40%, #000000 46%, #ffffff 48%, transparent 52%, transparent);
+}
+#s6 {
+	background: repeating-linear-gradient(-90deg, transparent, transparent 40%, #000000 46%, #ffffff 48%, transparent 52%, transparent);
+}
+/*"Animates" each of the guitar strings to "move"*/
+#s1:hover {
+	background: repeating-linear-gradient(-90deg, transparent, transparent 40%, #000000 46%, #ffffff 48%, transparent 52%, transparent) ; 
+}
+#s2:hover {
+	background: repeating-linear-gradient(-90deg, transparent, transparent 40%, #000000 46%, #ffffff 48%, transparent 52%, transparent) ;
+}
+#s3:hover {
+	background: repeating-linear-gradient(-90deg, transparent, transparent 40%, #000000 46%, #ffffff 48%, transparent 52%, transparent) ;
+}
+#s4:hover {
+	background: repeating-linear-gradient(-90deg, transparent, transparent 40%, #000000 46%, #ffffff 48%, transparent 52%, transparent) ;
+}
+#s5:hover {
+	background: repeating-linear-gradient(-90deg, transparent, transparent 40%, #000000 46%, #ffffff 48%, transparent 52%, transparent) ;
+}
+#s6:hover {
+	background: repeating-linear-gradient(-90deg, transparent, transparent 40%, #000000 46%, #ffffff 48%, transparent 52%, transparent) ;
+}
+#guitarBody button.string.playingSound {
+	background-repeat:repeat-y, repeat-y, no-repeat !important;
+	background-position:center center, center center, center 50% !important;
+	background-color:transparent;
+}
+#s1.string.playingSound {	
+	background: repeating-linear-gradient(-90deg, transparent, transparent 40%, #0eaae8 46%, #ffffff 48%, transparent 52%, transparent);
+	
+
+
+}
+#s2.string.playingSound {	
+	background: repeating-linear-gradient(-90deg, transparent, transparent 40%, #0eaae8 46%, #ffffff 48%, transparent 52%, transparent);
+	
+
+}
+#s3.string.playingSound {	
+	background: repeating-linear-gradient(-90deg, transparent, transparent 40%, #0eaae8 46%, #ffffff 48%, transparent 52%, transparent);
+	
+
+}
+#s4.string.playingSound {	
+	background: repeating-linear-gradient(-90deg, transparent, transparent 40%, #0eaae8 46%, #ffffff 48%, transparent 52%, transparent);
+	
+
+}
+#s5.string.playingSound {	
+	background: repeating-linear-gradient(-90deg, transparent, transparent 40%, #0eaae8 46%, #ffffff 48%, transparent 52%, transparent);
+	
+
+}
+#s6.string.playingSound {	
+	background: repeating-linear-gradient(-90deg, transparent, transparent 40%, #0eaae8 46%, #ffffff 48%, transparent 52%, transparent);
+	
+
+}
+
+/*Styles the footer with all its components*/
+footer {
+    margin: 0;
+    background-color: hsl(0,0%,90%);
+    height: 15vh;
+	text-align:center;
+	bottom: 0;
+    position: relative;
+    width: 100%;
+	background:url(https://i.pinimg.com/originals/34/7b/05/347b05f70e3ec739230bb470bdda89d7.jpg) repeat-x center center /contain transparent;
+	box-shadow: 0 0 25px 5px #000;
+}
+/*Styles & positions buttons within the footer*/
+footer button {
+    font-size: 0;
+    height: 9vh;
+    width: 140px;
+    margin: 3vh 1vh 0;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+	text-align: center;
+}
+/*Styles buttons used to control guitar*/
+#buttStop {
+    background: url(./Images/stopButton.png) no-repeat center right /contain;
+	text-align: left;
+}
+#buttHold {
+    background: url(./Images/holdButton.png) no-repeat center left /contain;
+	text-align: right;
+}
+#buttHold:after , #buttStop:before {
+    content: "HOLD";
+    font-size: 18px;
+    background-color: #333333;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 1px 3px;
+}
+#buttStop:before {
+    content: "STOP";
+}
+#buttHold.active:after, #buttHold:active:after {
+	text-shadow: 0px 1px 3px rgba(255,255,255,0.3), 0 0 15px #59a0f4, 0 0 20px #59a0f4, 0 0 25px #59a0f4, 0 0 30px #59a0f4, 0 0 35px #59a0f4;
+	color: #1e90ff;
+}
+#buttStop:active:before {
+	text-shadow: rgba(255,255,255,0.5) 0px 1px 3px, 0 0 15px #ff0000, 0 0 20px #ff0000, 0 0 25px #ff0000;
+	color: #ff0000;
+}
+#buttStop:active {
+    background: url(./Images/stopButton.png) no-repeat center right /contain;
+}
+#buttHold.active, #buttHold:active {
+    background: url(./Images/holdButton.png) no-repeat center left /contain;
+}
+/*Adds image to guitar pick*/
+#buttPick {
+    background: url(./Images/guitarPick.png) no-repeat center center /contain;
+	width: 100px;
+	height: 75px;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+/*Adds image to guitar pick when its active*/
+#buttPick.active{    
+    cursor: url(./Images/guitarPick.png);
+}
+/*Adds of guitar pick to cursor*/
+section.pickActive, section.pickActive .string{
+	cursor: grab;
+
+}
+/*Positions the notes of the guitar*/
+.notes {
+    position: absolute;
+    width: 330px;
+    top: 22%;
+    z-index: -1;
+	margin-left: 20px;
+}
+/*Styles & positions the notes of the guitar*/
+.notes span {
+    width: 50px;
+    display: inline-block;
+    color: #171717;
+    text-align: center;
+    font-size: 50px;
+    z-index: 0;
+    text-shadow: -1px -1px 1px #000000, 0px 0px 1px #6f6f6f;
+}
+/*Adds color & shadows to the notes being displayed*/
+.notes .lightOn, .notes .lightOn span {
+	color: #71abeb;
+    text-shadow: 0px 0px 15px #3779c5, 0px 0px 25px #3779c5, 0px 0px 35px #71abeb, -1px -1px 1px #000000, 0px 0px 1px #6f6f6f;
+	transition: all 0.2s ease;
+}
+/*Positions the sounds of the guitar*/
+.notas {
+    font-size: 22px !important;
+	margin-top: 42vh;
+}
+
+@media only screen and (max-width: 380px){
+	section {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 359px){
+	section {
+		margin-left: 0px;
+		background-position-x: -26px;
+	}
+	
+}
+/*Posistions the guitar body & sets its perspective*/
+@media only screen and (max-width: 320px){
+	section {
+		width: 320px;
+		padding-left: 5px;
+		box-sizing: border-box;
+		margin-right: 0;
+		background-position-x: -21px;
+	}
+	.notes {
+		width: 320px;
+		margin-left: 0px;
+	}
+	.notes span {
+		width: 48px;
+	}
+	button.string:first-child {
+		margin-left: 0 !important;
+	}
+	button.string:last-child {
+		margin-right: 0!important;
+	}
+}
+
+/*Hides guitar pick if not active/*/
+/*@media (pointer:coarse) {
+	#buttPick {
+		display:none !important;
+	}
+}*/
+
+/*Adds orientation to the guitar pick*/
+/*@media only screen and  (orientation : portrait) {
+    #buttPick {
+		display: inline-grid !important;
+	}
+}*/
